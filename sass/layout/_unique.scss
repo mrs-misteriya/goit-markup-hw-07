@@ -3,11 +3,11 @@ display: flex;
 width: 270px;
 }
 
-.unique-list:not(:last-child){
+.unique__list:not(:last-child){
 margin-right: 30px;
 }
 
-.unique-block-icon{
+.unique__block-icon{
 height: 120px;
 justify-content: center;
 align-items: center;
@@ -28,7 +28,7 @@ font-family: 'Roboto', 'Raleway', sans-serif ;
 margin-bottom: 10px;
 }
 
-.list-discription{
+.list-item__discription{
 font-weight:400;
 font-size:var(--main-font-size);
 line-height: 1.71;
