@@ -183,7 +183,6 @@ body {
 .modal-close-icon {
   transition: fill var(--transition-dur-and-func);
 }
-
 .modal-close-btn:hover .modal-close-icon, .modal-close-btn:focus .modal-close-icon {
   fill: var(--color-button);
 }
@@ -235,7 +234,6 @@ body {
   padding-left: 42px;
   transition: border-color var(--transition-dur-and-func);
 }
-
 .modal-form-input:focus {
   outline: none;
   border-color: var(--color-button);
@@ -338,7 +336,7 @@ body {
   align-items: center;
 }
 
-.nav-list:not(:last-child) {
+.nav__list:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -363,11 +361,11 @@ body {
   text-align: left;
 }
 
-.auth-list:not(:first-child) {
+.auth__list:not(:first-child) {
   margin-left: 50px;
 }
 
-.nav-link {
+.nav__link {
   font-family: "Roboto";
   font-weight: var(--second-weigh);
   font-size: var(--main-font-size);
@@ -381,12 +379,12 @@ body {
   color: var(--main-text-color);
   transition: color var(--transition-dur-and-func), text-shadow var(--transition-dur-and-func);
 }
-.nav-link:hover, .nav-link:focus {
+.nav__link:hover, .nav__link:focus {
   color: #188CE8;
   text-shadow: var(--transition-main-shadow);
 }
 
-.auth-link {
+.auth__link {
   font-family: "Roboto";
   font-weight: var(--second-weigh);
   font-size: var(--main-font-size);
@@ -400,14 +398,14 @@ body {
   color: var(--main-text-color);
   transition: color var(--transition-dur-and-func), text-shadow var(--transition-dur-and-func);
 }
-.list .auth-link {
+.list .auth__link {
   color: var(--main-color-link);
 }
-.auth-link:hover, .auth-link:focus {
+.auth__link:hover, .auth__link:focus {
   color: #188CE8;
   text-shadow: var(--transition-main-shadow);
 }
-.auth-link:hover::before {
+.auth__link:hover::before {
   color: var(--color-button);
 }
 
@@ -415,7 +413,7 @@ body {
   fill: currentColor;
 }
 
-.mail-icon {
+.auth__mail-icon {
   margin-right: 10px;
 }
 
@@ -423,11 +421,11 @@ body {
   fill: currentColor;
 }
 
-.tel-icon {
+.auth__tel-icon {
   margin-right: 10px;
 }
 
-.head-logo {
+.logo__head {
   color: var(--color-button);
 }
 
@@ -489,11 +487,11 @@ body {
   width: 270px;
 }
 
-.unique-list:not(:last-child) {
+.unique__list:not(:last-child) {
   margin-right: 30px;
 }
 
-.unique-block-icon {
+.unique__block-icon {
   height: 120px;
   justify-content: center;
   align-items: center;
@@ -514,7 +512,7 @@ body {
   margin-bottom: 10px;
 }
 
-.list-discription {
+.list-item__discription {
   font-weight: 400;
   font-size: var(--main-font-size);
   line-height: 1.71;
